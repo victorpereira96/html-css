@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        header > h1 {
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        nav {
+            background-color: rgb(105, 105, 105);
+            padding: 3px;
+            box-shadow: 4px 4px 6px 1px rgba(0, 0, 0, 0.404);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 3px 4px 5px black        
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(116, 115, 115);
+        }
+
+        article > h2 {
+            text-decoration: underline;
+            text-align: center;
+        }
+
+        article > p {
+            text-align: justify;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        aside > p {
+            text-align: right;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias do Flamengo</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam ut eius laboriosam similique tenetur officia placeat! Ad, qui ducimus! Deserunt harum aut architecto facere eum saepe ad commodi excepturi fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ratione, nisi accusantium quasi ipsam explicabo beatae repellat commodi quae, quidem quas itaque asperiores necessitatibus iusto exercitationem id dolores molestiae sint. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem deleniti eligendi cumque dolores et debitis, corrupti quos at sequi culpa voluptatem eveniet ut sed excepturi quae accusantium, ipsam repellat animi!</p>
+                <aside>
+                    <p>Artigo escrito por João Maria José</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Victor</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
